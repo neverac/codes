@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int t,l,r;
+int main(){
+	cin >> t;
+	while(t--)
+	{
+		scanf("%d%d",&l,&r);
+		cout << l << " " << l*2 << endl;
+	}
+	return 0;
+}
